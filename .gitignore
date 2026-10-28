@@ -9,10 +9,17 @@
 /coverage
 
 # Local environment files
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
+.env
+.env.*
+!.env.example
+
+# Credentials, keys, and certificates
+*.key
+*.pem
+*.p12
+*.pfx
+*.crt
+*.cert
 
 # Editor and operating-system files
 .idea/
